@@ -12,7 +12,6 @@ letsencrypt-auto \
   --non-interactive \
   --agree-tos \
   --standalone \
-  --standalone-supported-challenges http-01 \
   --http-01-port 80 \
   --email "${EMAIL}" \
   --domains "${DOMAINS}" \
