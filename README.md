@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-certbot
-        image: choffmeister/kubernetes-certbot:latest
+        image: rat2000/kubernetes-certbot:latest
         imagePullPolicy: Always
         env:
           - name: SECRET_NAMESPACE
