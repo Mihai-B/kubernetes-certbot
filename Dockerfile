@@ -1,4 +1,4 @@
-FROM debian:8.1
+FROM debian:9.9
 
 LABEL maintainer="Mihai Bob <mihai.m.bob@gmail.com>"
 
