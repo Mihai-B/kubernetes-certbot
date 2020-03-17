@@ -1,4 +1,4 @@
-FROM debian:9.9
+FROM debian:10.3
 
 LABEL maintainer="Mihai Bob <mihai.m.bob@gmail.com>"
 
@@ -14,7 +14,7 @@ RUN \
   letsencrypt-auto; exit 0
 
 RUN \
-  wget https://storage.googleapis.com/kubernetes-release/release/v1.17.2/bin/linux/amd64/kubectl && \
+  wget https://storage.googleapis.com/kubernetes-release/release/v1.17.4/bin/linux/amd64/kubectl && \
   chmod +x kubectl && \
   mv kubectl /usr/local/bin
 
