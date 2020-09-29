@@ -1,5 +1,5 @@
 
-**docker hub:** [![Docker Pulls](https://img.shields.io/docker/pulls/rat2000/kubernetes-certbot.svg)](https://hub.docker.com/r/rat2000/kubernetes-certbot) 
+**docker hub:** [![Docker Pulls](https://img.shields.io/docker/pulls/mihaibob/kubernetes-certbot.svg)](https://hub.docker.com/r/mihaibob/kubernetes-certbot) 
 <br>
 **buy me a coffe:** [![Buy a coffe](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.com/paypalme2/mihaibob/1?locale.x=en_US)
 
@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-certbot
-        image: rat2000/kubernetes-certbot:1.0.1
+        image: mihaibob/kubernetes-certbot:1.0.0
         imagePullPolicy: Always
         env:
           - name: SECRET_NAMESPACE
